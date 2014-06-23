@@ -35,7 +35,7 @@ namespace mvc_example.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("My application description page.", result.ViewBag.Message);
+            Assert.AreEqual("your application description page.", result.ViewBag.Message);
         }
 
         [TestMethod]
