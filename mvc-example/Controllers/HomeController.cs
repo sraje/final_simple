@@ -22,7 +22,7 @@ namespace mvc_example.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "ur contact page.";
+            ViewBag.Message = "my contact page.";
 
             return View();
         }
